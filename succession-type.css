@@ -1,0 +1,24 @@
+/* Succession page typography: match acquisition.css (Noto Sans KR, navy ink, tight heading tracking).
+   Kept in its own file because styles.css has an unclosed rule that swallows anything appended to it. */
+body[data-page="succession"]{color:#102d52;font:15px/1.65 "Noto Sans KR",Arial,sans-serif}
+[data-page="succession"] .brand{font-size:14px;font-weight:800;line-height:1.15;color:#0b294e}
+[data-page="succession"] .brand b{font-size:9px;font-weight:800;letter-spacing:0;color:#0b294e}
+[data-page="succession"] .footer .brand,[data-page="succession"] .footer .brand b{color:#fff}
+[data-page="succession"] .nav{font-size:15px;font-weight:600}
+[data-page="succession"] .nav a.active,[data-page="succession"] .nav a:hover{color:#0b294e;font-weight:600}
+[data-page="succession"] .nav .button{min-height:0;background:#0b294e;color:#fff;border-radius:7px;padding:10px 16px;font-size:13px;font-weight:700}
+[data-page="succession"] .business-hero .eyebrow{font-size:13px;font-weight:500;letter-spacing:.05em;line-height:1.6}
+[data-page="succession"] .business-hero h1{font-size:46px;font-weight:700;letter-spacing:-.06em;margin:4px 0 10px}
+[data-page="succession"] .business-hero__description{max-width:620px;margin:0;font-size:14px;line-height:1.65}
+[data-page="succession"] .business-hero__quote{font-size:18px;font-weight:700;line-height:1.55;letter-spacing:-.045em}
+[data-page="succession"] .stat-header h2,[data-page="succession"] .support-center-section h2,[data-page="succession"] .business-cta h2{font-weight:700;line-height:1.35;letter-spacing:-.055em}
+[data-page="succession"] .stat-header h2,[data-page="succession"] .support-center-section h2{font-size:25px;color:#102d52}
+[data-page="succession"] .stat-header p,[data-page="succession"] .support-intro p{font-size:13px;line-height:1.6;color:#37506c}
+[data-page="succession"] .key-message{font-size:14px;font-weight:700;color:#102d52}
+[data-page="succession"] .support-map strong,[data-page="succession"] .support-item strong{font-size:15px;font-weight:700;color:#102d52}
+[data-page="succession"] .support-map span,[data-page="succession"] .support-item span{font-size:12px;color:#4e627a}
+[data-page="succession"] .support-inline-link{font-size:13px;font-weight:700;color:#0b294e}
+[data-page="succession"] .business-cta h2{font-size:23px}
+[data-page="succession"] .business-cta p{font-size:12px}
+[data-page="succession"] .business-cta .button{font-size:13px;font-weight:800;color:#0b294e}
+@media(max-width:600px){[data-page="succession"] .business-hero h1{font-size:39px}[data-page="succession"] .stat-header h2,[data-page="succession"] .support-center-section h2{font-size:22px}}
