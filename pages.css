@@ -1,0 +1,108 @@
+/* Home & contact pages: match the acquisition/succession look (Noto Sans KR, navy ink, gold accents).
+   Scoped by data-page so the other pages sharing styles.css are untouched. */
+body:is([data-page="home"],[data-page="contact"]){color:#102d52;background:#fff;font:15px/1.65 "Noto Sans KR",Arial,sans-serif}
+:is([data-page="home"],[data-page="contact"]) .hidden{display:none}
+
+/* Header: same treatment as the succession page */
+:is([data-page="home"],[data-page="contact"]) .brand{font-size:14px;font-weight:800;line-height:1.15;color:#0b294e}
+:is([data-page="home"],[data-page="contact"]) .brand b{font-size:9px;font-weight:800;letter-spacing:0;color:#0b294e}
+:is([data-page="home"],[data-page="contact"]) .footer .brand,:is([data-page="home"],[data-page="contact"]) .footer .brand b{color:#fff}
+:is([data-page="home"],[data-page="contact"]) .nav{font-size:15px;font-weight:600}
+:is([data-page="home"],[data-page="contact"]) .nav a.active,:is([data-page="home"],[data-page="contact"]) .nav a:hover{color:#0b294e;font-weight:600}
+:is([data-page="home"],[data-page="contact"]) .nav .button{min-height:0;background:#0b294e;color:#fff;border-radius:7px;padding:10px 16px;font-size:13px;font-weight:700}
+
+/* Buttons */
+:is([data-page="home"],[data-page="contact"]) main .button{min-height:44px;padding:11px 20px;border:1px solid #0b294e;border-radius:7px;background:#0b294e;color:#fff;font-size:14px;font-weight:700;box-shadow:none}
+:is([data-page="home"],[data-page="contact"]) main .button:hover{transform:none;box-shadow:none;background:#17365d}
+:is([data-page="home"],[data-page="contact"]) main .button.outline{background:#fff;color:#0b294e}
+:is([data-page="home"],[data-page="contact"]) main .button.outline:hover{background:#f5f7fa}
+
+/* Hero */
+:is([data-page="home"],[data-page="contact"]) .hero{display:flex;align-items:center;min-height:470px;color:#fff;background:linear-gradient(90deg,rgba(5,43,84,.92) 0%,rgba(5,43,84,.7) 42%,rgba(5,43,84,.15) 75%,rgba(5,43,84,0) 100%),url('01_HERO_사업승계.svg') center/cover no-repeat}
+[data-page="contact"] .hero.small{min-height:280px;background-image:linear-gradient(90deg,rgba(5,43,84,.94) 0%,rgba(5,43,84,.72) 45%,rgba(5,43,84,.2) 80%),url('assets/business-succession/cta-business-succession.png')}
+:is([data-page="home"],[data-page="contact"]) .hero .wrap{padding-block:56px}
+:is([data-page="home"],[data-page="contact"]) .hero .eyebrow{margin:0 0 8px;color:#e6d8b7;font-size:13px;font-weight:600;letter-spacing:.08em}
+:is([data-page="home"],[data-page="contact"]) .hero h1{margin:0 0 14px;font-size:46px;line-height:1.25;font-weight:700;letter-spacing:-.06em;color:#fff}
+:is([data-page="home"],[data-page="contact"]) .hero .lead{max-width:560px;margin:0 0 26px;color:#e8f0f8;font-size:15px;line-height:1.7}
+:is([data-page="home"],[data-page="contact"]) .hero .button{border-color:#d6b66f;background:#d6b66f;color:#0b294e;font-weight:800}
+:is([data-page="home"],[data-page="contact"]) .hero .button:hover{background:#e0c585}
+
+/* Sections & type */
+:is([data-page="home"],[data-page="contact"]) .section{padding:64px 0}
+:is([data-page="home"],[data-page="contact"]) .tint{background:#f5f7fa}
+:is([data-page="home"],[data-page="contact"]) main h2{margin:0 0 6px;font-size:25px;line-height:1.35;font-weight:700;letter-spacing:-.055em;color:#102d52}
+:is([data-page="home"],[data-page="contact"]) main h3{margin:10px 0 4px;font-size:16px;line-height:1.4;font-weight:700;letter-spacing:-.03em}
+:is([data-page="home"],[data-page="contact"]) .sub{max-width:720px;margin:0 0 24px;color:#37506c;font-size:14px;line-height:1.6}
+:is([data-page="home"],[data-page="contact"]) .card{padding:24px;background:#fff;border:1px solid #dbe3ec;border-radius:6px;transition:box-shadow .2s ease}
+:is([data-page="home"],[data-page="contact"]) .card p{margin:0;color:#4e627a;font-size:13px;line-height:1.6}
+
+/* Home: value cards (like the acquisition "기업 인수란?" cards) */
+[data-page="home"] .grid:not(.two):not(.three){gap:12px}
+[data-page="home"] .grid:not(.two):not(.three) .card{padding:28px 16px;border:0;background:#f5f7fa;text-align:center}
+[data-page="home"] .icon{display:flex;justify-content:center;color:#0b294e}
+[data-page="home"] .icon svg{width:32px;height:32px}
+
+/* Home: succession / acquisition entry cards */
+[data-page="home"] .grid.two .card{display:flex;flex-direction:column;align-items:flex-start;gap:10px;padding:32px;border-top:3px solid #c7a660}
+[data-page="home"] .grid.two .card h2{margin:0;font-size:22px}
+[data-page="home"] .grid.two .card p{font-size:14px}
+[data-page="home"] .grid.two .button{margin-top:8px}
+[data-page="home"] .card:hover{box-shadow:0 10px 24px rgba(11,41,78,.08)}
+
+/* Steps (home flow + contact guide) */
+:is([data-page="home"],[data-page="contact"]) .steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:8px}
+:is([data-page="home"],[data-page="contact"]) .step{padding:16px 14px;background:#f5f7fa;border-top:3px solid #0b294e;font-size:14px;font-weight:600;line-height:1.4}
+:is([data-page="home"],[data-page="contact"]) .step b{display:block;margin-bottom:4px;color:#c7a660;font-size:13px;font-weight:800}
+
+/* Home: case preview */
+[data-page="home"] .case-card{gap:6px}
+[data-page="home"] .case-card small{color:#8a6d2f;font-size:12px;font-weight:700}
+[data-page="home"] .case-card h3{margin:2px 0 4px}
+[data-page="home"] .case-card .button{margin-top:auto;align-self:flex-start;min-height:40px;padding:8px 16px;font-size:13px}
+[data-page="home"] .case-card p{margin-bottom:14px}
+[data-page="home"] #case-preview+p{margin:24px 0 0}
+
+/* Home: bottom CTA banner (like the acquisition CTA) */
+[data-page="home"] .cta{display:grid;grid-template-columns:1fr auto;column-gap:32px;align-items:center;padding:44px 48px;border-radius:8px;color:#fff;background:linear-gradient(90deg,rgba(5,43,84,.95),rgba(5,43,84,.75) 55%,rgba(5,43,84,.3)),url('assets/business-succession/cta-business-succession.png') center/cover no-repeat}
+[data-page="home"] .cta h2{grid-column:1;margin:0 0 6px;color:#fff;font-size:23px}
+[data-page="home"] .cta p{grid-column:1;margin:0;color:#dbe8f5;font-size:14px}
+[data-page="home"] .cta .button{grid-column:2;grid-row:1/3;border-color:#d6b66f;background:#d6b66f;color:#0b294e;font-weight:800}
+[data-page="home"] .cta .button:hover{background:#e0c585}
+
+/* Contact: form + guide */
+[data-page="contact"] .section>.wrap.grid.two{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:32px;align-items:start}
+[data-page="contact"] form{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+[data-page="contact"] .field{display:grid;gap:6px;margin:0;color:#102d52;font-size:13px;font-weight:700}
+[data-page="contact"] .field:nth-child(n+5),[data-page="contact"] form>label:not(.field),[data-page="contact"] form>p{grid-column:1/-1}
+[data-page="contact"] .field input,[data-page="contact"] .field select,[data-page="contact"] .field textarea{width:100%;min-height:44px;padding:10px 12px;border:1px solid #d7dfe8;border-radius:6px;background:#fff;color:#102d52;font:400 14px/1.5 "Noto Sans KR",Arial,sans-serif}
+[data-page="contact"] .field textarea{min-height:140px;resize:vertical}
+[data-page="contact"] .field input:focus,[data-page="contact"] .field select:focus,[data-page="contact"] .field textarea:focus{outline:2px solid #0b294e;outline-offset:1px;border-color:#0b294e}
+[data-page="contact"] form>label:not(.field){display:flex;align-items:center;gap:8px;color:#37506c;font-size:13px}
+[data-page="contact"] form>label:not(.field) input{width:18px;height:18px;accent-color:#0b294e}
+[data-page="contact"] form>p{margin:4px 0 0}
+[data-page="contact"] .notice{margin:16px 0 0;padding:14px 16px;border-left:3px solid #c7a660;background:#f7f0e2;color:#102d52;font-size:13px}
+[data-page="contact"] aside.card{padding:28px;background:#f5f7fa;border:0;border-top:3px solid #c7a660}
+[data-page="contact"] aside.card h2{font-size:20px}
+[data-page="contact"] aside .steps{grid-template-columns:1fr;margin:16px 0}
+[data-page="contact"] aside .step{display:flex;align-items:center;gap:12px;background:#fff;border-top:0;border-left:3px solid #0b294e}
+[data-page="contact"] aside .step b{margin:0}
+
+@media(max-width:900px){
+  :is([data-page="home"],[data-page="contact"]) .steps{grid-template-columns:repeat(3,minmax(0,1fr))}
+  [data-page="home"] .grid:not(.two):not(.three){grid-template-columns:repeat(2,minmax(0,1fr))}
+  [data-page="contact"] .section>.wrap.grid.two{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  :is([data-page="home"],[data-page="contact"]) .hero{min-height:420px;background-position:62% center}
+  [data-page="contact"] .hero.small{min-height:240px}
+  :is([data-page="home"],[data-page="contact"]) .hero h1{font-size:27px;letter-spacing:-.05em}
+  :is([data-page="home"],[data-page="contact"]) .section{padding:44px 0}
+  :is([data-page="home"],[data-page="contact"]) main h2{font-size:22px}
+  :is([data-page="home"],[data-page="contact"]) .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  [data-page="home"] .grid.two .card{padding:24px}
+  [data-page="home"] .cta{grid-template-columns:1fr;padding:32px 24px;border-radius:0}
+  [data-page="home"] .cta .button{grid-column:1;grid-row:auto;justify-self:start;margin-top:18px}
+  [data-page="contact"] form{grid-template-columns:1fr}
+  [data-page="contact"] .field{grid-column:1/-1}
+}
+@media(max-width:420px){[data-page="home"] .grid:not(.two):not(.three){grid-template-columns:1fr}}
