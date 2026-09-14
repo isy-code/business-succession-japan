@@ -22,3 +22,32 @@ body[data-page="succession"]{color:#102d52;font:15px/1.65 "Noto Sans KR",Arial,s
 [data-page="succession"] .business-cta p{font-size:12px}
 [data-page="succession"] .business-cta .button{font-size:13px;font-weight:800;color:#0b294e}
 @media(max-width:600px){[data-page="succession"] .business-hero h1{font-size:39px}[data-page="succession"] .stat-header h2,[data-page="succession"] .support-center-section h2{font-size:22px}}
+
+/* Chart sizing: the chart SVGs are 1100-1400px wide and the styles.css rules that scaled them are lost. */
+[data-page="succession"] .stat-section{padding:14px 0;background:#effbff}
+[data-page="succession"] .stat-card{max-width:1080px;margin-inline:auto;padding:28px 48px 24px;background:#fff;border:1px solid #dceff7;border-radius:16px}
+[data-page="succession"] .stat-header{max-width:900px;margin:0 auto 18px;text-align:center}
+[data-page="succession"] .stat-header h2{margin:0 0 8px}
+[data-page="succession"] .stat-header p{margin:0}
+[data-page="succession"] .chart-frame{padding:12px;background:#fff;border:1px solid #cbe8f6;border-radius:11px;overflow:hidden}
+[data-page="succession"] .chart-frame img{display:block;width:100%;max-width:860px;height:auto;margin-inline:auto}
+[data-page="succession"] .successor-charts{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,.95fr);gap:12px;align-items:center}
+[data-page="succession"] .key-message{margin:12px 0 0;padding:14px 18px;background:#effbdc;border-radius:11px;line-height:1.5}
+[data-page="succession"] .support-center-section{padding:38px 0 28px;background:#effbff}
+[data-page="succession"] .support-center-section .wrap{max-width:1080px}
+[data-page="succession"] .support-center-section h2{margin:0 0 18px;text-align:left}
+[data-page="succession"] .support-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:12px}
+[data-page="succession"] .support-grid>div{min-height:140px;padding:20px;background:#fff;border:1px solid #cbe8f6;border-radius:13px}
+[data-page="succession"] .support-intro{display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+[data-page="succession"] .support-intro p{margin:0}
+[data-page="succession"] .support-map{display:grid;grid-template-columns:72px 1fr;align-items:center;column-gap:12px}
+[data-page="succession"] .support-map img{grid-row:span 2;width:70px;height:88px;object-fit:contain}
+[data-page="succession"] .support-item{display:flex;flex-direction:column;justify-content:center;gap:8px;background:#f4fcff!important}
+[data-page="succession"] .business-cta{min-height:210px;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(5,43,84,.91),rgba(5,43,84,.55)),url('assets/business-succession/cta-business-succession.png') center/cover}
+[data-page="succession"] .business-cta__inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+[data-page="succession"] .business-cta h2{margin:0 0 8px}
+[data-page="succession"] .business-cta p{margin:0}
+[data-page="succession"] .business-cta .button{background:#fff;white-space:nowrap}
+@media(max-width:900px){[data-page="succession"] .stat-card{padding:24px 24px 20px}[data-page="succession"] .successor-charts,[data-page="succession"] .support-grid{grid-template-columns:1fr}[data-page="succession"] .support-grid>div{min-height:0}}
+@media(max-width:600px){[data-page="succession"] .business-cta{padding:36px 0}[data-page="succession"] .business-cta__inner{flex-direction:column;align-items:flex-start}}
+@media(max-width:600px){[data-page="succession"] .stat-section{padding:8px 0}[data-page="succession"] .stat-card{padding:22px 14px 16px;border-radius:14px}[data-page="succession"] .chart-frame{padding:6px}[data-page="succession"] .chart-frame img{width:100%;max-width:100%}}
