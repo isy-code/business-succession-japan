@@ -1,40 +1,45 @@
-/* Home & contact pages: match the acquisition/succession look (Noto Sans KR, navy ink, gold accents).
-   Scoped by data-page so the other pages sharing styles.css are untouched. */
-body:is([data-page="home"],[data-page="contact"]){color:#102d52;background:#fff;font:15px/1.65 "Noto Sans KR",Arial,sans-serif}
-:is([data-page="home"],[data-page="contact"]) .hidden{display:none}
+/* Home, contact, cases & centers pages: match the acquisition/succession look (Noto Sans KR, navy ink, gold accents).
+   Scoped by data-page so the pages that don't load this file are untouched. */
+body:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]){color:#102d52;background:#fff;font:15px/1.65 "Noto Sans KR",Arial,sans-serif}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hidden{display:none}
 
 /* Header: same treatment as the succession page */
-:is([data-page="home"],[data-page="contact"]) .brand{font-size:14px;font-weight:800;line-height:1.15;color:#0b294e}
-:is([data-page="home"],[data-page="contact"]) .brand b{font-size:9px;font-weight:800;letter-spacing:0;color:#0b294e}
-:is([data-page="home"],[data-page="contact"]) .footer .brand,:is([data-page="home"],[data-page="contact"]) .footer .brand b{color:#fff}
-:is([data-page="home"],[data-page="contact"]) .nav{font-size:15px;font-weight:600}
-:is([data-page="home"],[data-page="contact"]) .nav a.active,:is([data-page="home"],[data-page="contact"]) .nav a:hover{color:#0b294e;font-weight:600}
-:is([data-page="home"],[data-page="contact"]) .nav .button{min-height:0;background:#0b294e;color:#fff;border-radius:7px;padding:10px 16px;font-size:13px;font-weight:700}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .brand{font-size:14px;font-weight:800;line-height:1.15;color:#0b294e}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .brand b{font-size:9px;font-weight:800;letter-spacing:0;color:#0b294e}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .footer .brand,:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .footer .brand b{color:#fff}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .nav{font-size:15px;font-weight:600}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .nav a.active,:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .nav a:hover{color:#0b294e;font-weight:600}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .nav a.active{box-shadow:inset 0 -3px 0 #0b294e;padding-block:6px}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .nav .button{min-height:0;background:#0b294e;color:#fff;border-radius:7px;padding:10px 16px;font-size:13px;font-weight:700}
 
 /* Buttons */
-:is([data-page="home"],[data-page="contact"]) main .button{min-height:44px;padding:11px 20px;border:1px solid #0b294e;border-radius:7px;background:#0b294e;color:#fff;font-size:14px;font-weight:700;box-shadow:none}
-:is([data-page="home"],[data-page="contact"]) main .button:hover{transform:none;box-shadow:none;background:#17365d}
-:is([data-page="home"],[data-page="contact"]) main .button.outline{background:#fff;color:#0b294e}
-:is([data-page="home"],[data-page="contact"]) main .button.outline:hover{background:#f5f7fa}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main .button{min-height:44px;padding:11px 20px;border:1px solid #0b294e;border-radius:7px;background:#0b294e;color:#fff;font-size:14px;font-weight:700;box-shadow:none}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main .button:hover{transform:none;box-shadow:none;background:#17365d}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main .button.outline{background:#fff;color:#0b294e}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main .button.outline:hover{background:#f5f7fa}
 
 /* Hero */
-:is([data-page="home"],[data-page="contact"]) .hero{display:flex;align-items:center;min-height:470px;color:#fff;background:linear-gradient(90deg,rgba(5,43,84,.92) 0%,rgba(5,43,84,.7) 42%,rgba(5,43,84,.15) 75%,rgba(5,43,84,0) 100%),url('01_HERO_사업승계.svg') center/cover no-repeat}
-[data-page="contact"] .hero.small{min-height:280px;background-image:linear-gradient(90deg,rgba(5,43,84,.94) 0%,rgba(5,43,84,.72) 45%,rgba(5,43,84,.2) 80%),url('assets/business-succession/cta-business-succession.png')}
-:is([data-page="home"],[data-page="contact"]) .hero .wrap{padding-block:56px}
-:is([data-page="home"],[data-page="contact"]) .hero .eyebrow{margin:0 0 8px;color:#e6d8b7;font-size:13px;font-weight:600;letter-spacing:.08em}
-:is([data-page="home"],[data-page="contact"]) .hero h1{margin:0 0 14px;font-size:46px;line-height:1.25;font-weight:700;letter-spacing:-.06em;color:#fff}
-:is([data-page="home"],[data-page="contact"]) .hero .lead{max-width:560px;margin:0 0 26px;color:#e8f0f8;font-size:15px;line-height:1.7}
-:is([data-page="home"],[data-page="contact"]) .hero .button{border-color:#d6b66f;background:#d6b66f;color:#0b294e;font-weight:800}
-:is([data-page="home"],[data-page="contact"]) .hero .button:hover{background:#e0c585}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero{display:flex;align-items:center;min-height:470px;color:#fff;background:linear-gradient(90deg,rgba(5,43,84,.92) 0%,rgba(5,43,84,.7) 42%,rgba(5,43,84,.15) 75%,rgba(5,43,84,0) 100%),url('01_HERO_사업승계.svg') center/cover no-repeat}
+:is([data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero.small{min-height:280px}
+[data-page="contact"] .hero.small{background-image:linear-gradient(90deg,rgba(5,43,84,.94) 0%,rgba(5,43,84,.72) 45%,rgba(5,43,84,.2) 80%),url('assets/business-succession/cta-business-succession.png')}
+[data-page="cases"] .hero.small{background-image:linear-gradient(90deg,rgba(5,43,84,.94) 0%,rgba(5,43,84,.72) 45%,rgba(5,43,84,.2) 80%),url('02_사업승계.svg')}
+[data-page="centers"] .hero.small{background-image:linear-gradient(90deg,rgba(5,43,84,.94) 0%,rgba(5,43,84,.72) 45%,rgba(5,43,84,.2) 80%),url('assets/business-succession/hero-business-succession.png')}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero .wrap{padding-block:56px}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero .eyebrow{margin:0 0 8px;color:#e6d8b7;font-size:13px;font-weight:600;letter-spacing:.08em}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero h1{margin:0 0 14px;font-size:46px;line-height:1.25;font-weight:700;letter-spacing:-.06em;color:#fff}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero .lead{max-width:560px;margin:0 0 26px;color:#e8f0f8;font-size:15px;line-height:1.7}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero .button{border-color:#d6b66f;background:#d6b66f;color:#0b294e;font-weight:800}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero .button:hover{background:#e0c585}
 
 /* Sections & type */
-:is([data-page="home"],[data-page="contact"]) .section{padding:64px 0}
-:is([data-page="home"],[data-page="contact"]) .tint{background:#f5f7fa}
-:is([data-page="home"],[data-page="contact"]) main h2{margin:0 0 6px;font-size:25px;line-height:1.35;font-weight:700;letter-spacing:-.055em;color:#102d52}
-:is([data-page="home"],[data-page="contact"]) main h3{margin:10px 0 4px;font-size:16px;line-height:1.4;font-weight:700;letter-spacing:-.03em}
-:is([data-page="home"],[data-page="contact"]) .sub{max-width:720px;margin:0 0 24px;color:#37506c;font-size:14px;line-height:1.6}
-:is([data-page="home"],[data-page="contact"]) .card{padding:24px;background:#fff;border:1px solid #dbe3ec;border-radius:6px;transition:box-shadow .2s ease}
-:is([data-page="home"],[data-page="contact"]) .card p{margin:0;color:#4e627a;font-size:13px;line-height:1.6}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .section{padding:64px 0}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .tint{background:#f5f7fa}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main h2{margin:0 0 6px;font-size:25px;line-height:1.35;font-weight:700;letter-spacing:-.055em;color:#102d52}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main h3{margin:10px 0 4px;font-size:16px;line-height:1.4;font-weight:700;letter-spacing:-.03em}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .sub{max-width:720px;margin:0 0 24px;color:#37506c;font-size:14px;line-height:1.6}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .card{padding:24px;background:#fff;border:1px solid #dbe3ec;border-radius:6px;transition:box-shadow .2s ease}
+:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .card p{margin:0;color:#4e627a;font-size:13px;line-height:1.6}
+:is([data-page="home"],[data-page="cases"],[data-page="centers"]) .card:hover{box-shadow:0 10px 24px rgba(11,41,78,.08)}
 
 /* Home: value cards (like the acquisition "기업 인수란?" cards) */
 [data-page="home"] .grid:not(.two):not(.three){gap:12px}
@@ -47,19 +52,19 @@ body:is([data-page="home"],[data-page="contact"]){color:#102d52;background:#fff;
 [data-page="home"] .grid.two .card h2{margin:0;font-size:22px}
 [data-page="home"] .grid.two .card p{font-size:14px}
 [data-page="home"] .grid.two .button{margin-top:8px}
-[data-page="home"] .card:hover{box-shadow:0 10px 24px rgba(11,41,78,.08)}
 
 /* Steps (home flow + contact guide) */
 :is([data-page="home"],[data-page="contact"]) .steps{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:8px}
 :is([data-page="home"],[data-page="contact"]) .step{padding:16px 14px;background:#f5f7fa;border-top:3px solid #0b294e;font-size:14px;font-weight:600;line-height:1.4}
 :is([data-page="home"],[data-page="contact"]) .step b{display:block;margin-bottom:4px;color:#c7a660;font-size:13px;font-weight:800}
 
-/* Home: case preview */
-[data-page="home"] .case-card{gap:6px}
-[data-page="home"] .case-card small{color:#8a6d2f;font-size:12px;font-weight:700}
-[data-page="home"] .case-card h3{margin:2px 0 4px}
-[data-page="home"] .case-card .button{margin-top:auto;align-self:flex-start;min-height:40px;padding:8px 16px;font-size:13px}
-[data-page="home"] .case-card p{margin-bottom:14px}
+/* Case cards (home preview + cases page) */
+:is([data-page="home"],[data-page="cases"]) .case-card{display:flex;flex-direction:column;gap:6px}
+:is([data-page="home"],[data-page="cases"]) .case-card small{color:#8a6d2f;font-size:12px;font-weight:700}
+:is([data-page="home"],[data-page="cases"]) .case-card h3{margin:2px 0 4px}
+:is([data-page="home"],[data-page="cases"]) .case-card p{margin-bottom:14px}
+:is([data-page="home"],[data-page="cases"]) .case-card .button{margin-top:auto;align-self:flex-start;min-height:40px;padding:8px 16px;background:#fff;color:#0b294e;font-size:13px}
+:is([data-page="home"],[data-page="cases"]) .case-card .button:hover{background:#f5f7fa}
 [data-page="home"] #case-preview+p{margin:24px 0 0}
 
 /* Home: bottom CTA banner (like the acquisition CTA) */
@@ -87,22 +92,49 @@ body:is([data-page="home"],[data-page="contact"]){color:#102d52;background:#fff;
 [data-page="contact"] aside .step{display:flex;align-items:center;gap:12px;background:#fff;border-top:0;border-left:3px solid #0b294e}
 [data-page="contact"] aside .step b{margin:0}
 
+/* Cases & centers: search + filter chips */
+:is([data-page="cases"],[data-page="centers"]) .search{display:block;width:100%;max-width:480px;min-height:44px;margin:4px 0 0;padding:10px 14px;border:1px solid #d7dfe8;border-radius:6px;background:#fff;color:#102d52;font:400 14px/1.5 "Noto Sans KR",Arial,sans-serif}
+:is([data-page="cases"],[data-page="centers"]) .search:focus{outline:2px solid #0b294e;outline-offset:1px;border-color:#0b294e}
+:is([data-page="cases"],[data-page="centers"]) .filters{gap:6px;margin:12px 0 0}
+:is([data-page="cases"],[data-page="centers"]) .filters button{min-height:36px;padding:6px 14px;border:1px solid #dbe3ec;border-radius:6px;background:#fff;color:#37506c;font:600 13px/1.4 "Noto Sans KR",Arial,sans-serif;cursor:pointer}
+:is([data-page="cases"],[data-page="centers"]) .filters button:hover{border-color:#0b294e;color:#0b294e}
+:is([data-page="cases"],[data-page="centers"]) .filters button.active{border-color:#0b294e;background:#0b294e;color:#fff}
+:is([data-page="cases"],[data-page="centers"]) #case-root,:is([data-page="cases"],[data-page="centers"]) #centers-root{margin-top:24px;gap:14px}
+
+/* Centers: intro (map + notice) and center cards */
+[data-page="centers"] .tint>.wrap.grid.two{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px;align-items:center}
+[data-page="centers"] .map{display:block;width:100%;max-width:280px;max-height:300px;margin:16px auto 0;padding:0;object-fit:contain;object-position:top}
+[data-page="centers"] .tint .card{padding:28px;border:0;border-top:3px solid #c7a660;background:#fff}
+[data-page="centers"] .tint .card h3{margin:0 0 8px;font-size:18px}
+[data-page="centers"] .tint .card p{margin:0 0 18px}
+[data-page="centers"] .center-card{display:flex;flex-direction:column;gap:2px}
+[data-page="centers"] .center-card .badge{color:#8a6d2f;font-size:12px;font-weight:700}
+[data-page="centers"] .center-card h3{margin:6px 0 4px}
+[data-page="centers"] .center-card p{margin:2px 0;color:#4e627a;font-size:13px}
+[data-page="centers"] .center-card h3+p{color:#63768b;font-size:12px}
+[data-page="centers"] .center-card a[href^="tel:"]{color:#0b294e;font-weight:700}
+[data-page="centers"] .center-card .button{margin-top:auto;align-self:flex-start;min-height:40px;padding:8px 16px;font-size:13px}
+[data-page="centers"] .center-card p:last-of-type{margin-bottom:14px}
+
 @media(max-width:900px){
   :is([data-page="home"],[data-page="contact"]) .steps{grid-template-columns:repeat(3,minmax(0,1fr))}
   [data-page="home"] .grid:not(.two):not(.three){grid-template-columns:repeat(2,minmax(0,1fr))}
-  [data-page="contact"] .section>.wrap.grid.two{grid-template-columns:1fr}
+  [data-page="contact"] .section>.wrap.grid.two,[data-page="centers"] .tint>.wrap.grid.two{grid-template-columns:1fr}
+  :is([data-page="cases"],[data-page="centers"]) :is(#case-root,#centers-root){grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media(max-width:620px){
-  :is([data-page="home"],[data-page="contact"]) .hero{min-height:420px;background-position:62% center}
-  [data-page="contact"] .hero.small{min-height:240px}
-  :is([data-page="home"],[data-page="contact"]) .hero h1{font-size:27px;letter-spacing:-.05em}
-  :is([data-page="home"],[data-page="contact"]) .section{padding:44px 0}
-  :is([data-page="home"],[data-page="contact"]) main h2{font-size:22px}
+  :is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero{min-height:420px;background-position:62% center}
+  :is([data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero.small{min-height:240px}
+  :is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .hero h1{font-size:27px;letter-spacing:-.05em}
+  :is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) .section{padding:44px 0}
+  :is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page="centers"]) main h2{font-size:22px}
   :is([data-page="home"],[data-page="contact"]) .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
   [data-page="home"] .grid.two .card{padding:24px}
   [data-page="home"] .cta{grid-template-columns:1fr;padding:32px 24px;border-radius:0}
   [data-page="home"] .cta .button{grid-column:1;grid-row:auto;justify-self:start;margin-top:18px}
   [data-page="contact"] form{grid-template-columns:1fr}
   [data-page="contact"] .field{grid-column:1/-1}
+  :is([data-page="cases"],[data-page="centers"]) :is(#case-root,#centers-root){grid-template-columns:1fr}
+  [data-page="centers"] .map{max-width:260px}
 }
 @media(max-width:420px){[data-page="home"] .grid:not(.two):not(.three){grid-template-columns:1fr}}
