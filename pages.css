@@ -74,8 +74,41 @@ body:is([data-page="home"],[data-page="contact"],[data-page="cases"],[data-page=
 [data-page="home"] .cta .button{grid-column:2;grid-row:1/3;border-color:#d6b66f;background:#d6b66f;color:#0b294e;font-weight:800}
 [data-page="home"] .cta .button:hover{background:#e0c585}
 
-/* Contact: form + guide */
-[data-page="contact"] .section>.wrap.grid.two{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:32px;align-items:start}
+/* Contact: support process (7 steps) */
+[data-page="contact"] .process-section{padding:56px 0 8px}
+[data-page="contact"] .process{padding:36px 40px 40px;background:#eef3f9;border-radius:10px}
+[data-page="contact"] .process-head{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:16px 64px;margin-bottom:34px}
+[data-page="contact"] .process-kicker{margin:0 0 2px;color:#5b78a8;font-size:12px;font-weight:600;letter-spacing:.14em}
+[data-page="contact"] .process-head h2{margin:0;font-size:27px}
+[data-page="contact"] .process-head>p{margin:0;color:#37506c;font-size:14px;line-height:1.75}
+[data-page="contact"] .process-head .button{min-height:40px;padding:8px 16px;font-size:13px}
+[data-page="contact"] .process-steps{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:14px;margin:0;padding:0;list-style:none}
+[data-page="contact"] .process-steps li{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center}
+[data-page="contact"] .process-steps li:not(:last-child)::after{content:"›";position:absolute;top:17px;right:-12px;color:#5b6d80;font-size:22px;line-height:1}
+[data-page="contact"] .process-icon{display:grid;place-items:center;width:58px;height:58px;margin-bottom:12px;border-radius:50%;background:#fff;color:#0b294e;box-shadow:0 4px 14px rgba(11,41,78,.08)}
+[data-page="contact"] .process-icon svg{width:24px;height:24px}
+[data-page="contact"] .process-steps b{color:#2a4a80;font-size:13px;font-weight:700}
+[data-page="contact"] .process-steps strong{margin:2px 0 8px;color:#102d52;font-size:15px;font-weight:700;letter-spacing:-.03em}
+[data-page="contact"] .process-steps p{margin:0;color:#4e627a;font-size:13px;line-height:1.6}
+@media(max-width:1000px){
+  [data-page="contact"] .process-head{grid-template-columns:1fr;gap:10px}
+  [data-page="contact"] .process-head .button{justify-self:start}
+  [data-page="contact"] .process-steps{grid-template-columns:repeat(4,minmax(0,1fr));row-gap:28px}
+  [data-page="contact"] .process-steps li::after{display:none}
+}
+@media(max-width:620px){
+  [data-page="contact"] .process-section{padding:40px 0 0}
+  [data-page="contact"] .process{padding:28px 20px}
+  [data-page="contact"] .process-steps{grid-template-columns:1fr;row-gap:20px}
+  [data-page="contact"] .process-steps li{display:grid;grid-template-columns:48px 1fr;column-gap:14px;align-items:start;text-align:left}
+  [data-page="contact"] .process-icon{grid-row:span 3;width:48px;height:48px;margin:0}
+  [data-page="contact"] .process-steps strong{margin:0 0 4px}
+  [data-page="contact"] .process-steps p br{display:none}
+}
+
+/* Contact: consultation form */
+[data-page="contact"] .contact-form>*{max-width:880px}
+[data-page="contact"] .contact-note{margin:16px 0 0;color:#63768b;font-size:12px}
 [data-page="contact"] form{max-width:none;display:grid;grid-template-columns:1fr 1fr;gap:16px}
 [data-page="contact"] .field{display:grid;gap:6px;margin:0;color:#102d52;font-size:13px;font-weight:700}
 [data-page="contact"] .field:nth-child(n+5),[data-page="contact"] form>label:not(.field),[data-page="contact"] form>p{grid-column:1/-1}
