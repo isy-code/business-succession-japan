@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<style>
+    text { font-family: Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; }
+    .title { fill:#1637d6; font-weight:800; }
+    .label { fill:#172f8f; font-size:18px; }
+    .small { fill:#172f8f; font-size:15px; }
+    .axis { stroke:#9aa7d5; stroke-width:2; }
+    .grid { stroke:#d9dde7; stroke-width:1; }
+</style>
+<rect x="10" y="10" width="1380" height="600" rx="20" ry="20" fill="white" stroke="#bfe0fb" stroke-width="2"/>
+<text x="45" y="85" class="title" font-size="42">사업 승계 시기별 현 경영자와 차대 경영자와의 관계</text>
+<line x1="170" y1="145" x2="170" y2="347" class="axis"/>
+<line x1="170" y1="347" x2="1290" y2="347" class="axis"/>
+<line x1="170.0" y1="347" x2="170.0" y2="357" class="axis"/>
+<text x="170.0" y="400" class="label" text-anchor="middle">0</text>
+<line x1="394.0" y1="347" x2="394.0" y2="357" class="axis"/>
+<text x="394.0" y="400" class="label" text-anchor="middle">20</text>
+<line x1="618.0" y1="347" x2="618.0" y2="357" class="axis"/>
+<text x="618.0" y="400" class="label" text-anchor="middle">40</text>
+<line x1="842.0" y1="347" x2="842.0" y2="357" class="axis"/>
+<text x="842.0" y="400" class="label" text-anchor="middle">60</text>
+<line x1="1066.0" y1="347" x2="1066.0" y2="357" class="axis"/>
+<text x="1066.0" y="400" class="label" text-anchor="middle">80</text>
+<line x1="1290.0" y1="347" x2="1290.0" y2="357" class="axis"/>
+<text x="1290.0" y="400" class="label" text-anchor="middle">100</text>
+<text x="135" y="220" class="title" font-size="26" text-anchor="end">과거</text>
+<rect x="170" y="180" width="939.6800000000001" height="62" fill="#b7df59"/>
+<text x="639.84" y="220" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">83.9%</text>
+<rect x="1109.68" y="180" width="103.03999999999999" height="62" fill="#d8dcf6"/>
+<text x="1161.2" y="220" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">9.2%</text>
+<rect x="1212.72" y="180" width="41.440000000000005" height="62" fill="#c9cbd1"/>
+<text x="1233.44" y="220" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">3.7%</text>
+<rect x="1254.16" y="180" width="40.32000000000001" height="62" fill="#dfe1e7"/>
+<text x="1274.3200000000002" y="220" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">3.6%</text>
+<text x="135" y="320" class="title" font-size="26" text-anchor="end">최근</text>
+<rect x="170" y="280" width="638.4" height="62" fill="#b7df59"/>
+<text x="489.2" y="320" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">57.0%</text>
+<rect x="808.4" y="280" width="165.76000000000002" height="62" fill="#d8dcf6"/>
+<text x="891.28" y="320" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">14.8%</text>
+<rect x="974.16" y="280" width="197.12000000000003" height="62" fill="#c9cbd1"/>
+<text x="1072.72" y="320" font-size="24" font-weight="700" fill="white" text-anchor="middle">17.6%</text>
+<rect x="1171.28" y="280" width="122.08" height="62" fill="#dfe1e7"/>
+<text x="1232.32" y="320" font-size="24" font-weight="700" fill="#1637d6" text-anchor="middle">10.9%</text>
+<rect x="240" y="502" width="28" height="28" fill="#b7df59"/>
+<text x="285" y="525" class="label" font-size="20">친족(자녀)</text>
+<rect x="505" y="502" width="28" height="28" fill="#d8dcf6"/>
+<text x="550" y="525" class="label" font-size="20">친족 외의 친척</text>
+<rect x="770" y="502" width="28" height="28" fill="#c9cbd1"/>
+<text x="815" y="525" class="label" font-size="20">현업 종업원</text>
+<rect x="1035" y="502" width="28" height="28" fill="#dfe1e7"/>
+<text x="1080" y="525" class="label" font-size="20">사업의 제3자</text>
+</svg>

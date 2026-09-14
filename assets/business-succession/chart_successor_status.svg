@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700">
+<style>
+    text { font-family: Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; }
+    .title { fill:#1637d6; font-weight:800; }
+    .label { fill:#172f8f; font-size:18px; }
+    .small { fill:#172f8f; font-size:15px; }
+    .axis { stroke:#9aa7d5; stroke-width:2; }
+    .grid { stroke:#d9dde7; stroke-width:1; }
+</style>
+<rect x="10" y="10" width="1380" height="680" rx="20" ry="20" fill="white" stroke="#bfe0fb" stroke-width="2"/>
+<text x="45" y="85" class="title" font-size="42">중소기업의 경영자 연령 분포 (후계자 결정 여부)</text>
+<line x1="200" y1="155" x2="200" y2="526" class="axis"/>
+<line x1="200" y1="526" x2="1280" y2="526" class="axis"/>
+<line x1="200.0" y1="526" x2="200.0" y2="536" class="axis"/>
+<text x="200.0" y="581" class="label" text-anchor="middle">0</text>
+<line x1="416.0" y1="526" x2="416.0" y2="536" class="axis"/>
+<text x="416.0" y="581" class="label" text-anchor="middle">20</text>
+<line x1="632.0" y1="526" x2="632.0" y2="536" class="axis"/>
+<text x="632.0" y="581" class="label" text-anchor="middle">40</text>
+<line x1="848.0" y1="526" x2="848.0" y2="536" class="axis"/>
+<text x="848.0" y="581" class="label" text-anchor="middle">60</text>
+<line x1="1064.0" y1="526" x2="1064.0" y2="536" class="axis"/>
+<text x="1064.0" y="581" class="label" text-anchor="middle">80</text>
+<line x1="1280.0" y1="526" x2="1280.0" y2="536" class="axis"/>
+<text x="1280.0" y="581" class="label" text-anchor="middle">100</text>
+<text x="165" y="201" class="title" font-size="24" text-anchor="end">80대 이상</text>
+<rect x="200" y="165" width="684.72" height="52" fill="#b7df59"/>
+<text x="542.36" y="201" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">63.4%</text>
+<rect x="884.72" y="165" width="160.92" height="52" fill="#c9dbfb"/>
+<text x="965.1800000000001" y="201" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">14.9%</text>
+<rect x="1045.64" y="165" width="237.6" height="52" fill="#d7d7d9"/>
+<text x="1164.44" y="201" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">22.0%</text>
+<text x="165" y="277" class="title" font-size="24" text-anchor="end">70대</text>
+<rect x="200" y="241" width="629.64" height="52" fill="#b7df59"/>
+<text x="514.8199999999999" y="277" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">58.3%</text>
+<rect x="829.64" y="241" width="166.32" height="52" fill="#c9dbfb"/>
+<text x="912.8" y="277" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">15.4%</text>
+<rect x="995.96" y="241" width="281.88" height="52" fill="#d7d7d9"/>
+<text x="1136.9" y="277" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">26.1%</text>
+<text x="165" y="353" class="title" font-size="24" text-anchor="end">60대</text>
+<rect x="200" y="317" width="498.96000000000004" height="52" fill="#b7df59"/>
+<text x="449.48" y="353" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">46.2%</text>
+<rect x="698.96" y="317" width="208.44" height="52" fill="#c9dbfb"/>
+<text x="803.1800000000001" y="353" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">19.3%</text>
+<rect x="907.4000000000001" y="317" width="352.08000000000004" height="52" fill="#d7d7d9"/>
+<text x="1083.44" y="353" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">32.6%</text>
+<text x="165" y="429" class="title" font-size="24" text-anchor="end">50대</text>
+<rect x="200" y="393" width="376.91999999999996" height="52" fill="#b7df59"/>
+<text x="388.46" y="429" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">34.9%</text>
+<rect x="576.92" y="393" width="251.64000000000001" height="52" fill="#c9dbfb"/>
+<text x="702.74" y="429" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">23.3%</text>
+<rect x="828.56" y="393" width="460.08" height="52" fill="#d7d7d9"/>
+<text x="1058.6" y="429" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">42.6%</text>
+<text x="165" y="505" class="title" font-size="24" text-anchor="end">40대</text>
+<rect x="200" y="469" width="222.48000000000002" height="52" fill="#b7df59"/>
+<text x="311.24" y="505" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">20.6%</text>
+<rect x="422.48" y="469" width="432.0" height="52" fill="#c9dbfb"/>
+<text x="638.48" y="505" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">40.0%</text>
+<rect x="854.48" y="469" width="432.0" height="52" fill="#d7d7d9"/>
+<text x="1070.48" y="505" font-size="23" font-weight="700" fill="#1637d6" text-anchor="middle">40.0%</text>
+<rect x="280" y="622" width="32" height="32" rx="4" fill="#b7df59"/>
+<text x="330" y="647" class="label" font-size="20">후계자 정해진 경우</text>
+<rect x="610" y="622" width="32" height="32" rx="4" fill="#c9dbfb"/>
+<text x="660" y="647" class="label" font-size="20">후계자 미정인 경우</text>
+<rect x="940" y="622" width="32" height="32" rx="4" fill="#d7d7d9"/>
+<text x="990" y="647" class="label" font-size="20">후계자결정 예정</text>
+</svg>

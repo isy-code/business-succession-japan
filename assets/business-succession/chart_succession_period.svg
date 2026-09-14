@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="820" viewBox="0 0 1100 820">
+<style>
+    text { font-family: Pretendard, 'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif; }
+    .title { fill:#1637d6; font-weight:800; }
+    .label { fill:#172f8f; font-size:18px; }
+    .small { fill:#172f8f; font-size:15px; }
+    .axis { stroke:#9aa7d5; stroke-width:2; }
+    .grid { stroke:#d9dde7; stroke-width:1; }
+</style>
+<rect x="10" y="10" width="1080" height="800" rx="20" ry="20" fill="white" stroke="#bfe0fb" stroke-width="2"/>
+<text x="55" y="95" class="title" font-size="42">사업 승계 시 후계자로 예상하는데 걸리는 기간</text>
+<path d="M 560.0 220.0 A 200 200 0 0 1 595.0046117950552 223.08713309415893 L 574.8769600128985 336.31203156501755 A 85 85 0 0 0 560.0 335.0 Z" fill="#e8e8ea"/>
+<path d="M 595.0046117950552 223.08713309415893 A 200 200 0 0 1 694.1371153073441 271.6516454522522 L 617.0082740056212 356.95194931720715 A 85 85 0 0 0 574.8769600128985 336.31203156501755 Z" fill="#a4d62d"/>
+<path d="M 694.1371153073441 271.6516454522522 A 200 200 0 0 1 691.3171511505914 570.8502761472207 L 615.8097892390012 484.1113673625688 A 85 85 0 0 0 617.0082740056212 356.95194931720715 Z" fill="#d8ecb8"/>
+<path d="M 691.3171511505914 570.8502761472207 A 200 200 0 0 1 394.58388514508766 532.4166755704262 L 489.69815118666224 467.7770871174311 A 85 85 0 0 0 615.8097892390012 484.1113673625688 Z" fill="#c7ddb0"/>
+<path d="M 394.58388514508766 532.4166755704262 A 200 200 0 0 1 367.2552643419981 366.6196021359249 L 478.08348734534917 397.3133309077681 A 85 85 0 0 0 489.69815118666224 467.7770871174311 Z" fill="#c5c5c8"/>
+<path d="M 367.2552643419981 366.6196021359249 A 200 200 0 0 1 465.8592135669335 243.5417547130093 L 519.9901657659467 345.00524575302893 A 85 85 0 0 0 478.08348734534917 397.3133309077681 Z" fill="#ececed"/>
+<circle cx="560" cy="420" r="82" fill="#dcefc9"/>
+<text x="560" y="438" font-size="54" font-weight="800" fill="#13673e" text-anchor="middle">7년</text>
+<line x1="576.2524713618875" y1="235.71528230851308" x2="515" y2="175" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="515" y1="175" x2="380" y2="175" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="576.2524713618875" cy="235.71528230851308" r="7" fill="#9f9f9f"/>
+<text x="380" y="167" fill="#1637d6" font-size="28" font-weight="700" text-anchor="end">알 수 없음</text>
+<text x="380" y="221" fill="#1637d6" font-size="34" font-weight="800" text-anchor="end">2.8%</text>
+<line x1="641.3887464233443" y1="253.86489848428613" x2="670" y2="175" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="670" y1="175" x2="760" y2="175" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="641.3887464233443" cy="253.86489848428613" r="7" fill="#9f9f9f"/>
+<text x="760" y="167" fill="#1637d6" font-size="28" font-weight="700" text-anchor="start">1년 미만</text>
+<text x="760" y="221" fill="#1637d6" font-size="34" font-weight="800" text-anchor="start">8.9%</text>
+<line x1="744.9917836151558" y1="421.74355811013163" x2="745" y2="410" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="745" y1="410" x2="875" y2="410" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="744.9917836151558" cy="421.74355811013163" r="7" fill="#9f9f9f"/>
+<text x="875" y="402" fill="#1637d6" font-size="28" font-weight="700" text-anchor="start">1-3년</text>
+<text x="875" y="456" fill="#1637d6" font-size="34" font-weight="800" text-anchor="start">26.9%</text>
+<line x1="536.236855412944" y1="603.4674711204541" x2="580" y2="610" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="580" y1="610" x2="580" y2="700" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="536.236855412944" cy="603.4674711204541" r="7" fill="#9f9f9f"/>
+<text x="580" y="692" fill="#1637d6" font-size="28" font-weight="700" text-anchor="middle">3-5년</text>
+<text x="580" y="746" fill="#1637d6" font-size="34" font-weight="800" text-anchor="middle">26.9%</text>
+<line x1="377.4631003215444" y1="450.0878755610535" x2="340" y2="560" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="340" y1="560" x2="260" y2="560" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="377.4631003215444" cy="450.0878755610535" r="7" fill="#9f9f9f"/>
+<text x="260" y="552" fill="#1637d6" font-size="28" font-weight="700" text-anchor="end">6-9년</text>
+<text x="260" y="606" fill="#1637d6" font-size="34" font-weight="800" text-anchor="end">13.8%</text>
+<line x1="415.62037464240893" y1="304.33010857789463" x2="360" y2="300" stroke="#b5b5b5" stroke-width="2"/>
+<line x1="360" y1="300" x2="250" y2="300" stroke="#b5b5b5" stroke-width="2"/>
+<circle cx="415.62037464240893" cy="304.33010857789463" r="7" fill="#9f9f9f"/>
+<text x="250" y="292" fill="#1637d6" font-size="28" font-weight="700" text-anchor="end">10년 이상</text>
+<text x="250" y="346" fill="#1637d6" font-size="34" font-weight="800" text-anchor="end">12.9%</text>
+</svg>
